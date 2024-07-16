@@ -6,7 +6,8 @@
                 "${workspaceFolder}/**",
                 "/usr/lib/avr",
                 "/usr/lib/avr/include",
-                "/usr/lib/gcc/avr/5.4.0/include"
+                "/usr/lib/gcc/avr/5.4.0/include",
+                "${workspace}/.ext/googletest"
             ],
             "defines": [
                 "F_CPU=16000000UL"
